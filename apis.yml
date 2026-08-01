@@ -1,7 +1,27 @@
 aid: spotangels
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/spotangels.png
 name: Spotangels
-description: Spotangels is a company surfaced as a portfolio company of y-combinator and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  SpotAngels is a consumer parking application that helps drivers find free and
+  cheap parking, understand and avoid confusing street-parking rules, get
+  reminders before street cleaning and permit-zone changes, and book discounted
+  garage and lot parking in major cities. The company also runs business
+  programs for cities, universities, and parking operators/owners to surface
+  availability and deals. SpotAngels is a Y Combinator-backed company. As of this
+  enrichment pass it exposes no public developer API, developer portal, SDK, or
+  machine-readable API surface; its integrations are business partnerships rather
+  than developer-facing APIs.
 url: https://raw.githubusercontent.com/api-evangelist/spotangels/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,12 +31,32 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Parking
+- Mobility
+- Transportation
+- Consumer App
+- Location
+- Y Combinator
 apis: []
+common:
+- type: DomainSecurity
+  url: security/spotangels-domain-security.yml
+- type: Website
+  url: https://www.spotangels.com/
+- type: Support
+  url: https://www.spotangels.com/faq
+- type: Community
+  url: https://discord.gg/jfTqz4V44B
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
