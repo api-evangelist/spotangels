@@ -42,7 +42,7 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.23'
 created: '2026-07-17'
-modified: '2026-07-21'
+modified: '2026-10-06'
 tags:
 - Company
 - Parking
@@ -53,6 +53,10 @@ tags:
 - Y Combinator
 apis: []
 common:
+- url: https://www.spotangels.com/blog
+  type: Blog
+- url: https://www.spotangels.com/blog/feed/
+  type: BlogRSS
 - type: DomainSecurity
   url: security/spotangels-domain-security.yml
 - type: Website
